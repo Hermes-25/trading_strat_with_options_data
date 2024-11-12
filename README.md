@@ -15,19 +15,6 @@ The key objectives of this project include:
 4. **Backtesting**: Evaluating the strategy's performance on historical data.
 5. **Documentation**: Presenting the strategy's logic, rationale, and performance through charts, graphs, and detailed explanations.
 
-## Table of Contents
-
-- [Installation](#installation)
-- [Data](#data)
-- [Features](#features)
-- [Machine Learning Models](#machine-learning-models)
-- [Trading Strategy](#trading-strategy)
-- [Risk Management](#risk-management)
-- [Backtesting and Evaluation](#backtesting-and-evaluation)
-- [Results](#results)
-- [Contributing](#contributing)
-- [License](#license)
-
 ## Installation
 
 To run this project, make sure you have Python installed along with the required libraries:
