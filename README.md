@@ -3,13 +3,13 @@
 
 ## Overview
 
-This project is developed as part of the **Trading Strategy Challenge with Options Data**, organized by the Finance & Economics Club of IIT Guwahati. The objective is to create an options trading strategy specifically focused on the NIFTY BANK index by utilizing historical options price and volume data. This strategy aims to optimize trading decisions by extracting insights from options markets and effectively implementing machine learning models for price prediction.
+This project is developed as part of the **Trading Strategy Challenge with Options Data**. The objective is to create an options trading strategy specifically focused on the NIFTY BANK index by utilizing historical **options price and volume data**. This strategy aims to optimize trading decisions by **extracting insights from options markets** and effectively implementing machine learning models for price prediction.
 
 ## Objectives
 
 The key objectives of this project include:
 
-1. **Data Acquisition and Preprocessing**: Loading, cleaning, and preprocessing historical options data for the NIFTY BANK index from July 2023 to December 2023.
+1. **Data Acquisition and Preprocessing**: Loading, cleaning, and preprocessing historical options data for the NIFTY BANK index.
 2. **Strategy Development**: Designing a robust trading strategy using mathematical and statistical models to generate buy/sell signals.
 3. **Risk Management**: Implementing measures such as position sizing and stop-losses to limit market exposure and manage risk.
 4. **Backtesting**: Evaluating the strategy's performance on historical data.
@@ -73,7 +73,7 @@ Multiple machine learning models are used to predict future price movements. Thi
     Sell Signal: Triggered when models indicate a price drop, along with unfavorable PCR conditions.
 
 - Strategy Execution
-  The strategy buys or sells options based on predictions, executing trades according to the generated signals, using rolling-window predictions to emulate real-time trading.
+  The strategy buys or sells BANK NIFTY based on predictions, executing trades according to the generated signals, using rolling-window predictions to emulate real-time trading.
 
 - Risk Management
   Effective risk management is critical in this strategy:
